@@ -1,14 +1,14 @@
 :root {
-  --body-bg-color: #22212C;
-  --text-color: #837E9F;
-  --bg-cards: #302F3D;
-  --bg-techs: #CB92B1;
-  --teste-color: #837E9F;
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+  --teste-color: #837e9f;
 }
 
 * {
   margin: 0;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   background-color: var(--body-bg-color);
   color: var(--text-color);
 }
@@ -22,70 +22,84 @@ body {
 aside {
   display: flex;
   flex-direction: column;
-  gap: 30px;  
+  gap: 30px;
 }
 
 /* background cards */
 
-aside .profile, .links{
+aside .profile,
+.links,
+.tech,
+.exp,
+.card,
+main .myprojects,
+main .projeto,
+.blog {
   background-color: var(--bg-cards);
-  padding: 40px; 
-  border-radius: 8px;
+  padding: 40px;
+  border-radius: 12px;
 }
 
-asside,div{  background-color: var(--bg-cards);
+asside,
+div {
+  background-color: var(--bg-cards);
 }
 
-img, svg {
+img,
+svg {
   color: var(--teste-color);
 }
 
-.profile {    
-  width: 300px;   
+.profile {
+  width: 300px;
   align-items: center;
-  border: 8px; 
-  display: flex; 
+  border: 8px;
+  display: flex;
   gap: 20px;
   flex-direction: column;
 }
 
-.profile img {  
+.profile img {
   border-radius: 50%;
   width: 128px;
-  border: 2px solid greenyellow;
+  border: 2px solid #00FF00;
   display: flex;
   flex-direction: column;
 }
 
-.informacoes{
+.informacoes {
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
 }
 .name {
-font-family: 'Merriweather Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 23px;
-line-height: 29px;
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
 }
 
-.subtitle{
-font-family: 'Merriweather Sans';
-font-style: normal;
-font-weight: 300;
-font-size: 13px;
-line-height: 16px;
+.subtitle {
+  font-family: "Merriweather Sans";
+  font-weight: lighter;
+  margin-bottom: 12px;
+  font-size: 13px;
+  line-height: 1px;
 }
 
-.links {  
+.teste {
+  margin-left: 10px;
+}
+
+.links {
   display: flex;
   flex-direction: column;
-  gap: 20px;  
+  gap: 20px;
 }
 
-.links img{
+.links img {
   background: none;
 }
 
@@ -93,12 +107,178 @@ line-height: 16px;
   text-decoration: none;
   background-color: var(--bg-cards);
   color: var(--text-color);
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
 }
 
-.links div{
+.links div {
   display: flex;
   gap: 20px;
   align-items: center;
+}
+
+.listatech ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  padding: 0 1rem;
+  margin-top: 15px;
+  gap: 8px;
+  justify-content: space-between;
+  background-color: var(--bg-cards);
+}
+
+.listatech ul li {
+  background-color: var(--bg-techs);
+  color: black;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+  width: 86px;
+  height: 24px;
+  text-align: center;
+  padding-top: 12px;
+  border-radius: 30px;
+  list-style: none;
+}
+
+.title, .titleexp {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.listaexp{
+  font-weight: 600;
+  background-color: var(--body-bg-color); 
+}
+
+ul,li {
+  background-color: var(--bg-cards);
+  }
+
+.titleexp {
+  margin-bottom: 30px;
+}
+
+.listaexp ul li{
+  font-size: 19px;
+  }
+
+p{
+  background-color: var(--bg-cards);
+  margin-top: 1px;
+  margin-bottom: 30px;
+  font-weight: lighter;
+  font-style: unset;
+  width: 160px;
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+  background-color: var(--bg-cards);
+  font-style: lighter;
+  font-size: 14px;
+}
+
+main {
+  flex:  1;
+  display: flex;
+  margin-left: 60px;
+  gap: 30px;
+  flex-direction: column;
+}
+
+main .myprojects{
+  display: flex;
+  justify-content: space-between;
+}
+
+main .projetos{
+  display: flex; 
+  gap: 15px;
+  background-color: var(--body-bg-color);
+     
+}
+
+main .projeto{
+  display:flex;
+  flex-direction: column;
+  width: 50%;  
+  cursor: pointer; 
+}
+
+.projetotitle{
+  font-size: 16px;
+  font-weight: 600;   
+  display: flex;
+  gap: 16px;
+  line-height: 29px;
+  
+}
+
+.projetotitle img{
+  background: none;
+  width: 23px;
+  height: 23px;
+  margin-bottom: 15px;
+}
+
+.githubinfo {      
+  margin-top: 33px;
+  display: flex;  
+  justify-content: space-between;  
+}
+
+.info{   
+  gap: 20px; 
+  display: flex; 
+}
+
+.stars img, .branches img{
+  background: none;  
+  
+}
+
+.colorinfo {
+  width: 15px;
+  height: 15px;
+  background-color: yellow;
+  border-radius: 50%;  
+}
+
+.languageinfo {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
+
+.branches, .stars{
+  display: flex;  
+  gap: 7px;
+}
+
+.blog {
+  display: flex;
+  cursor: pointer;
+}
+
+.profilet img {
+  border-radius: 50%;
+  width: 128px;   
+  margin-right: 20px;
+}
+
+.blogs{  
+}
+
+.twoyear{
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+.error{
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
