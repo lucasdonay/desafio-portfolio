@@ -8,7 +8,8 @@
 	<a href="#contact">Contact</a> 
 </p>
 <br>
-<br>
+
+<img src="https://github.com/birobirobiro/desafios-discover/blob/main/discover-desafio-portfolio/.github/portfolio.jpeg">
 
 ## About
 <img src="https://www.rocketseat.com.br/_next/image?url=%2Fassets%2Flogos%2Frocketseat.svg&w=256&q=100">
