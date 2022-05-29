@@ -9,7 +9,7 @@
 </p>
 <br>
 
-<img src="https://github.com/birobirobiro/desafios-discover/blob/main/discover-desafio-portfolio/.github/portfolio.jpeg">
+<img src="https://efficient-sloth-d85.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F152cec1f-b8ad-4b3a-9520-e1fbd5433a32%2FMacBook_Pro_16_inch.png?table=block&id=fab245df-3678-4f46-99be-a21c450ae1f3&spaceId=08f749ff-d06d-49a8-a488-9846e081b224&width=2000&userId=&cache=v2">
 
 ## About
 <img src="https://www.rocketseat.com.br/_next/image?url=%2Fassets%2Flogos%2Frocketseat.svg&w=256&q=100">
